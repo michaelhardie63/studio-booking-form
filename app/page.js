@@ -3,11 +3,11 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 import { useRouter } from 'next/navigation';
-import FormSections from '@components/FormSections';
-import Header from '@components/Header';
+import FormSections from './components/FormSections';
+import Header from './components/Header';
 import { Alert } from "@mui/material";
 
-import FormSectionTabs from '@components/FormSectionTabs';
+import FormSectionTabs from './components/FormSectionTabs';
 
 const IndexPage = () => {
   	const router = useRouter();

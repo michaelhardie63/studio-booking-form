@@ -7,7 +7,7 @@ const FormSectionTabs = ({ currentSection, setCurrentSection }) => {
     return (
         <div className="w-2/5 ml-12 flex flex-col justify-start items-start mb-4">
             {formSections.map((section, index) => (
-                <div className="flex flex-row gap-2 py-4">
+                <div className="flex flex-row gap-2 py-4" key={index}>
                     <div>
                         <div 
                             className="relative z-10 w-[40px] h-[40px] rounded-full border-solid border-4 border-primary-red bg-white"> 
